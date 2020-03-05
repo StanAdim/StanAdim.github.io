@@ -1,0 +1,216 @@
+html , body{
+    padding:0;
+    margin:0;
+    background: #02000e;
+    height: 100vh;
+    color:white;
+    display: flex;
+    justify-content:center;
+}
+.logoName{
+    z-index: 99;
+    position: absolute;
+    top:20rem;
+    left: 50%;
+    padding:0;
+    margin:0;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: italic;
+    color:yellow;
+    text-shadow: -50px 30px 2px grey;
+}
+.hide{display: none}
+.show{display: block}
+.main{
+    width:86%;
+    padding:10px;
+    margin:3px;
+}
+.outer{
+    display:flex;
+    justify-content: center;
+}
+.inner{
+    padding:4px;
+    margin:4px;
+    box-shadow: 0px 3px 3px whitesmoke;
+}
+
+.box {
+    display:grid ;
+    grid-template-rows:  .2fr 4fr .2fr;
+}
+.box-bottom {
+
+    border:1px solid white;
+
+}
+
+.part-1-sections{
+    display:grid ;
+    grid-template-columns:  1.5fr 3.8fr 1.5fr;
+    grid-gap:2px;
+}
+.b-parts{
+    display: block;
+}
+.top-in{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: inline-flex;
+}
+.sec{
+    font-size: x-large;
+    font-family:Verdana;
+    height: 2.1rem;
+    padding: .2rem;
+    margin:8px 0;
+    width: 10rem;
+    border:1px solid yellow;
+    text-align: center;
+    cursor: pointer;
+}
+.sec:hover{
+    transform: scaleX(1.04);
+}
+.active{
+    background: #378bff;
+    box-shadow: -5px 4px 2px yellow;
+}
+.personal{
+    border-left: 4px solid red;
+    border-radius: 10px;
+    background: #08012b;
+}
+.personal li{
+    font-family:"Comic Sans MS";
+    font-size: larger;
+    margin-top: 8px;
+    padding:4px 10px;
+    letter-spacing:2px;
+}
+.personal li:hover{
+    transform:scaleX(1.03);
+    background: #060116;
+
+}
+#first{
+    border-radius: 30px 0px 0px 0px;
+}
+#second{
+
+    border-radius: 0px 30px 0px 0px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+li span{
+    text-align: left;
+    font-size: 18px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: #a1a1a1;
+}
+
+.center-box{
+    display: flex;
+    justify-content: center;
+
+}
+.center-img {
+    margin:.3rem;
+    padding-bottom: 1px;
+    border:1px solid white;
+    width: 700px;
+    height: 400px;
+}
+.center-img img:hover{
+    opacity: 1;
+    box-shadow: 0px 12px 9px white;
+}
+.center-img img{
+    padding:0;
+    margin:0;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    transition: .6s ease-in;
+    opacity: .3;
+}
+.center-title:hover ,.skills-title:hover,.details-title:hover,.title h2:hover{
+    background-color: #090121;
+    border-top:1px solid #2a2b29;
+    border-bottom:1px solid #2a2b29;
+}
+.center-title ,.details-title,.skills-title,.title h2{
+    margin:15px;
+    border-radius: 10px;
+    transition: .5s ease;
+    color: #adadba;
+    background-color: #001421;
+    font-family:"Maiandra GD";
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.skills-list ul li:hover{
+    text-decoration: underline;
+    letter-spacing:1px;
+}
+.skills-list ul li{
+    font-size: 22px;
+    color:orangered;
+    cursor: pointer;
+}
+.skills-list ul li a{
+    text-decoration: none;
+    color: #848491;
+}
+.skills-list ul li a:hover{
+    color:#fff;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.social ul li{
+    width:15rem;
+    text-align: center;
+}
+.social ul li:hover{
+    border-bottom: 3px solid #adadba;
+    letter-spacing: 2px;
+}
+.social ul li a{
+    transition:.5s ease;
+    color: #648521;
+    font-family: Tahoma,monospace;
+    text-decoration: none;
+    font-size: 22px ;
+}
+.social ul li a:active{
+    color: orangered;
+}
+.social ul li a:hover{
+    border-bottom: 4px solid #a1a1a1;
+    color:greenyellow;
+}
+.social ul{
+    display: flex;
+}

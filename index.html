@@ -1,12 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My prifolion</title>
+    <title>Layout 2</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app2.css">
+    <script src="script/app.js"></script>
 </head>
 <body>
-    <h2>My Portifolio</h2>
+            <div class="main">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="box">
+                            <div class="box-top">
+                                <div class="top-in">
+                                    <div class="btn">
+                                        <div class="sec active" onclick="changeWindow()" id="first">First</div>
+                                        <div class="sec" id="second" onclick="changeWindow()">Second</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-bottom">
+                               <div class="b-parts">
+                                   <div class="part-1" id="page1">
+                                       <div class="part-1-sections">
+                                           <div class="details">
+                                               <div class="in-details">
+                                                   <div class="details-title">Personal Details</div>
+                                                   <div class="det-all">
+                                                       <ul class="personal">
+                                                           <li>Name: <span class="name">Stanley J Mahenge</span></li>
+                                                           <li>Email: <span class="email">Stanjustine@gmail.com</span></li>
+                                                           <li>Phone No#: <span class="email">0767941560</span></li>
+                                                           <li>Address: <span class="address">Tanzania Dar es Salaam, Kinondoni</span></li>
+                                                           <li>Relationship:<span class="relation">Married</span></li>
+                                                           <li>BirthDay:<span class="dob">23 Aug</span></li>
+                                                           <li>Nationality:<span class="natOrg">Tanzanian</span></li>
+                                                           <li>Languages:<span class="lang">Swahili,English, Little Spanish</span></li>
+                                                       </ul>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="center-box" >
+                                               <div class="center-in" onclick="slide()">
+
+                                                   <div class="center-title" onclick="slide()">Profile Picture</div>
+                                                   <div class="center-img " id="slide-1">                                                       <img src="images/img%20(2).jpg" class="img " alt="Profile Picture 1" id="img-1">
+
+                                                   </div>
+                                                   <span class="logoName">Adim</span>
+                                                   <div class="center-img hide" id="slide-2">
+                                                       <img src="images/img%20(1).jpg" class="img " alt="Profile Picture 2" id="img-2">
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="skills">
+                                               <div class="skills-in">
+                                                   <div class="skills-title">Life Hobbies</div>
+                                                   <div class="skills-list">
+                                                       <ul>
+                                                           <li>#Coding</li>
+                                                           <li>#Computer Engineering</li>
+                                                           <li>#Programming</li>
+                                                           <li>#Network Administrator</li>
+                                                           <li>#Photograph</li>
+                                                           <li>#Web Systems Management</li>
+                                                           <li>#Science</li>
+                                                           <li>#Pyschology</li>
+                                                       </ul>
+                                                   </div> <div class="skills-title">Projects Developed</div>
+                                                   <div class="skills-list">
+                                                       <ul>
+                                                           <li># <a href="#">Augossy tour Agent</a></li>
+                                                           <li># <a href="#">Teesmart Online Shop</a></li>
+                                                           <li># <a href="#">DipiTec</a></li>
+                                                           <li># <a href="#">Js Calculator</a></li>
+                                                           <li># <a href="#">Image Slider</a></li>
+                                                           <li># <a href="#">Home of Living</a></li>
+                                                           <li># <a href="#">Abuu Online Car</a></li>
+
+                                                       </ul>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div id="page2" class="part-2 hide">
+                                       <div class="part-2-in">
+                                           <div class="title">
+                                               <h2>Contact me Now </h2>
+                                           </div>
+                                           <div class="text-section">
+                                               <div class="text-in">
+                                                   <div class="label">
+                                                       <label for="textArea"> Write something below</label>
+
+                                                   </div>
+                                                   <div class="text-region">
+                                                       <textarea placeholder="Write something here..." name="" id="textArea" cols="30" rows="10"></textarea>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+
+                            <div class="social">
+                                <ul >
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">GitHub</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 </body>
 </html>
