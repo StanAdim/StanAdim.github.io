@@ -7,19 +7,40 @@ html , body{
     display: flex;
     justify-content:center;
 }
+.logoName:hover{
+    background:rgba(0, 0, 0, 0.677);
+    border-radius: 300px;
+    letter-spacing: 3px;
+}
 .logoName{
+    transition: .5s ease;
+    cursor: pointer;
     z-index: 99;
+    width: 30%;
+    text-align: center;
     position: absolute;
-    top:20rem;
-    left: 50%;
-    padding:0;
+    top:18rem;
+    left: 40%;
+    padding:30px;
     margin:0;
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: italic;
     color:yellow;
-    text-shadow: -50px 30px 2px grey;
+    text-shadow: -40px 24px 2px grey;
+}
+.interest .skills-list ul li{
+    padding:2px ;
+    margin:2px;
+}
+.interest .skills-title {
+    font-size: 54px;
+}
+.interest .skills-list ul{
+        display:inline-flex;
+        border-bottom: 1px solid gray;
+        transition: .9s ease;
 }
 .hide{display: none}
 .show{display: block}
@@ -40,7 +61,7 @@ html , body{
 
 .box {
     display:grid ;
-    grid-template-rows:  .2fr 4fr .2fr;
+    grid-template-rows:  .2fr 2fr .2fr .2fr;
 }
 .box-bottom {
 
@@ -50,7 +71,7 @@ html , body{
 
 .part-1-sections{
     display:grid ;
-    grid-template-columns:  1.5fr 3.8fr 1.5fr;
+    grid-template-columns:  1.3fr 3.6fr 2.4fr;
     grid-gap:2px;
 }
 .b-parts{
