@@ -7,12 +7,11 @@ function changeWindow() {
 }
 
 function slide() {
-
-
     if(counter){
         document.getElementById("slide-1").classList.toggle("hide");
         document.getElementById("slide-2").classList.toggle("hide");
     }
+    setTimeout("slide()",1900)
 
 
 
